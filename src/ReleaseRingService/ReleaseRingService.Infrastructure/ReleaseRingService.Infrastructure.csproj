@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>ReleaseRingService.Infrastructure</RootNamespace>
+    <AssemblyName>ReleaseRingService.Infrastructure</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ReleaseRingService.Core\ReleaseRingService.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.7.*" />
+    <PackageReference Include="AWSSDK.SimpleSystemsManagement" Version="3.7.*" />
+    <PackageReference Include="AWSSDK.EC2" Version="3.7.*" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.2" />
+  </ItemGroup>
+</Project>

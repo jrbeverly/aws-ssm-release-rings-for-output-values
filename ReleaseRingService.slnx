@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/ReleaseRingService/">
+    <Project Path="src/ReleaseRingService/ReleaseRingService.Cli/ReleaseRingService.Cli.csproj" />
+    <Project Path="src/ReleaseRingService/ReleaseRingService.Core/ReleaseRingService.Core.csproj" />
+    <Project Path="src/ReleaseRingService/ReleaseRingService.Infrastructure/ReleaseRingService.Infrastructure.csproj" />
+    <Project Path="src/ReleaseRingService/ReleaseRingService.Worker/ReleaseRingService.Worker.csproj" />
+  </Folder>
+  <Folder Name="/test/" />
+  <Folder Name="/test/ReleaseRingService/">
+    <Project Path="test/ReleaseRingService/ReleaseRingService.Tests/ReleaseRingService.Tests.csproj" />
+    <Project Path="test/ReleaseRingService/ReleaseRingService.Verification/ReleaseRingService.Verification.csproj" />
+  </Folder>
+</Solution>
